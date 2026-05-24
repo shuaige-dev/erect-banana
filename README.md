@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/logo.png" alt="Erect Banana" width="420">
+<img src="assets/logo.png" alt="Erect Banana" width="280">
 
 # Erect Banana
 
