@@ -152,7 +152,7 @@ Questions or problems? Email **<i@liangzai.org>** — usually replied within 24h
 ## FAQ
 
 **Q: 为什么叫 Erect Banana？**  
-Gemini 2.5 Flash Image 的内部代号是 "Nano Banana2"。这个插件让 PS 的 AI 填充能力"硬"起来——仅此而已。
+Gemini 3.1 Flash Image 的内部代号是 "Nano Banana2"。这个插件让 PS 的 AI 填充能力"硬"起来——仅此而已。
 
 **Q: 会不会上传我的图片？**  
 不会。图片直接从你的电脑发到 Google API，我们的服务器只做 license 验证（一次 HTTPS 请求，验证完就再无通讯）。
@@ -164,7 +164,7 @@ Gemini 2.5 Flash Image 的内部代号是 "Nano Banana2"。这个插件让 PS �
 1.x 版本仅 Windows。Mac 版本视销量决定（你的购买就是投票）。
 
 **Q: 和 Firefly / 商业版 Adobe AI 比怎么样？**  
-速度更快（直连 Google，没有 Adobe 中间层）、价格更便宜（你按 Google 用量付钱，免费额度够普通用户用）、不绑 Adobe 订阅。质量是 Gemini 2.5 Flash Image 模型本身决定的，对人物、产品图、场景扩展都不错，对极端复杂场景可能略逊 Firefly。
+速度更快（直连 Google，没有 Adobe 中间层）、价格更便宜（你按 Google 用量付钱，免费额度够普通用户用）、不绑 Adobe 订阅。质量是 Gemini3.1 Flash Image 模型本身决定的，对人物、产品图、场景扩展都不错，对极端复杂场景可能略逊 Firefly。
 
 ---
 
