@@ -1,0 +1,53 @@
+Erect Banana — Proprietary Software License
+Copyright (c) 2026 junshaon. All rights reserved.
+
+1. Grant of License
+   Subject to your compliance with this license, you are granted a non-exclusive,
+   non-transferable, revocable license to install and use the Erect Banana
+   software ("the Software") on machines that you personally own or directly
+   control, for personal or commercial Photoshop work.
+
+2. Two distribution variants
+   (a) "Free" build — distributed without license-key validation. Free to use
+       under the terms of this license. No warranty, no SLA, no commitment to
+       continued availability.
+   (b) "Pro" build — requires a valid license key obtained from
+       https://junshaon.gumroad.com/l/erect-banana or other authorized
+       sales channels. The license key activates one (1) machine, identified
+       by hardware fingerprint (HWID).
+
+3. Restrictions
+   You may NOT:
+   - Resell, sublicense, rent, lease, or otherwise commercially redistribute
+     the Software or any license keys.
+   - Reverse engineer, decompile, or disassemble the Software, except to the
+     extent expressly permitted by applicable law.
+   - Remove or alter any copyright, trademark, or attribution notices.
+   - Use the Software to violate the terms of any third-party service
+     (including Google's API Terms of Service).
+
+4. BYOK and third-party services
+   The Software uses Google's Generative Language API via a key that you
+   provide. You are solely responsible for compliance with Google's terms
+   and for any usage charges incurred on your Google account. The author of
+   Erect Banana is not affiliated with Google or Adobe.
+
+5. No warranty
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+   OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
+
+6. Limitation of liability
+   IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
+   LIABILITY ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE
+   USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+7. Termination
+   This license terminates automatically if you violate any of its terms.
+   Upon termination, you must cease all use of the Software and uninstall it.
+
+8. Refunds
+   Pro purchases are refundable within 30 days of purchase, no questions
+   asked, via the original purchase channel.
+
+Contact: junshaonan@outlook.com
