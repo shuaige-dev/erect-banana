@@ -37,6 +37,6 @@ First public release.
 - `ErectBanana-X.Y.Z-Setup-Pro.exe` — standard PS, license required
 - `ErectBanana(Portable)-X.Y.Z-Setup-Pro.exe` — portable PS, license required
 
-Both Pro builds are published to GitHub Releases (downloads are free, but a license key is required to activate). License keys are sold via Gumroad (international) and 闲鱼 (China).
+Both Pro builds are published to GitHub Releases (downloads are free, but a license key is required to activate). License keys are sold via Gumroad (international)。
 
 Free builds (no license validation) are built internally for testing but are **not** distributed publicly.
