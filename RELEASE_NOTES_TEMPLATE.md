@@ -36,8 +36,7 @@
 | `ErectBanana-X.Y.Z-Setup-Pro.exe` | Standard Adobe Photoshop | ~XX MB |
 | `ErectBanana(Portable)-X.Y.Z-Setup-Pro.exe` | Portable / standalone PS | ~XX MB |
 
-**A license key is required to activate.** Buy at [Gumroad ($15)](https://junshaon.gumroad.com/l/erect-banana) or 闲鱼 (¥29-39).
-
+**A license key is required to activate.** Buy at [Gumroad ($15)](https://junshaon.gumroad.com/l/erect-banana) 
 ## Install / upgrade
 
 **Fresh install**: download → run installer → done.
