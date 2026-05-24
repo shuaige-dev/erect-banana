@@ -170,14 +170,14 @@ Gemini 3.1 Flash Image 的内部代号是 "Nano Banana2"。这个插件让 PS �
 
 ## License
 
-Proprietary. © 2026 junshaon. All rights reserved.
+Proprietary. © 2026 shuaige. All rights reserved.
 
 The binary distribution is licensed for personal and commercial use on machines you own.
 Resale, redistribution, or reverse engineering is not permitted.
 
 ## Contact
 
-- **Email**: <i@liangzai.org > (replies within 24h)
+- **Email**: <i@liangzai.org> (replies within 24h)
 - **Buy**: <https://junshaon.gumroad.com/l/erect-banana>
 - **Bug reports / feature requests**: [GitHub Issues](https://github.com/shuaige-dev/erect-banana/issues)
 - Issues / feature requests: [GitHub Issues](https://github.com/shuaige-dev/erect-banana/issues)
