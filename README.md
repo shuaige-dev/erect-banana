@@ -8,7 +8,7 @@
 
 **[Buy now — $15](https://junshaon.gumroad.com/l/erect-banana)** ·
 [Download installer](https://github.com/shuaige-dev/erect-banana/releases/latest) ·
-[Email support](mailto:junshaonan@outlook.com) ·
+[Email support](mailto:i@liangzai.org) ·
 [Demo video](https://youtu.be/jNrBVeFAguQ)
 
 [中文版 ↓](#中文版)
@@ -22,7 +22,7 @@
 Generative Fill, natively inside Photoshop. No app switching, no exporting, no manual uploads.
 Draw a selection, type a prompt, click Generate. The result is composited directly into your layer.
 
-Powered by Google's **Gemini 2.5 Flash Image** (a.k.a. "Nano Banana") — currently one of the fastest and highest-quality models for inpainting and image editing.
+Powered by Google's **Gemini 3.1 Flash Image** (a.k.a. "Nano Banana2") — currently one of the fastest and highest-quality models for inpainting and image editing.
 
 ## Why this exists
 
@@ -38,7 +38,6 @@ Powered by Google's **Gemini 2.5 Flash Image** (a.k.a. "Nano Banana") — curren
   - You pay Google directly — no markup, no middleman
   - Free tier available (15 requests/min on Google)
 - Works with both Adobe-distributed Photoshop and standalone installs
-- Chinese + English UI
 
 ## Requirements
 
@@ -56,7 +55,6 @@ One-time purchase. No subscription, no per-generation fee. Lifetime updates with
 
 Buy at:
 - **International** → [Gumroad](https://junshaon.gumroad.com/l/erect-banana) — instant key delivery
-- **中国大陆** → 闲鱼搜 "硬邦邦的香蕉" — ¥29-39
 
 ## Download
 
@@ -78,7 +76,7 @@ China mirror (faster from mainland): **[Gitee Releases](https://gitee.com/shuaig
 5. Open Photoshop → `Plugins` → `Erect Banana` → paste your **license key**, then your **Google API key**
 6. Make a selection, type a prompt, click Generate
 
-Questions or problems? Email **<junshaonan@outlook.com>** — usually replied within 24h.
+Questions or problems? Email **<i@liangzai.org>** — usually replied within 24h.
 
 ---
 
@@ -86,13 +84,13 @@ Questions or problems? Email **<junshaonan@outlook.com>** — usually replied wi
 
 ## 中文版
 
-**硬邦邦的香蕉** —— Photoshop 原生 AI 生成填充插件，底层用 Google Gemini 2.5 Flash Image（"Nano Banana"）。
+**硬邦邦的香蕉** —— Photoshop 原生 AI 生成填充插件，底层用 Google Gemini 3.1 Flash Image（"Nano Banana2"）。
 
 ### 它能做什么
 
 不切应用、不导出、不上传。框选 → 输 prompt → 点生成，结果直接合成到当前图层。
 
-底层用 Google 最新的 Gemini 2.5 Flash Image，目前公认对图像修补/扩图任务最快、效果最好的通用模型之一。
+底层用 Google 最新的 Gemini 3.1 Flash Image，目前公认对图像修补/扩图任务最快、效果最好的通用模型之一。
 
 ### 为什么做这个
 
@@ -125,8 +123,7 @@ Questions or problems? Email **<junshaonan@outlook.com>** — usually replied wi
 一次买断。无订阅、无次数限制。v1.x 系列内终身免费更新。
 
 购买渠道：
-- **国内**：闲鱼搜 "硬邦邦的香蕉"
-- **国外 / USD**：[Gumroad — $15](https://junshaon.gumroad.com/l/erect-banana)
+- ** / USD**：[Gumroad — $15](https://junshaon.gumroad.com/l/erect-banana)
 
 ### 下载
 
@@ -141,27 +138,27 @@ Questions or problems? Email **<junshaonan@outlook.com>** — usually replied wi
 
 ### 安装（90 秒）
 
-1. **先买 key**：闲鱼 / Gumroad，会自动/手动发到邮箱
+1. **先买 key**： Gumroad，会自动/手动发到邮箱
 2. 在 Releases 页下载 `Setup-Pro.exe`
 3. 双击运行，一路下一步
 4. 申请免费 Google API key：<https://aistudio.google.com/apikey>
 5. 打开 PS → 增效工具 → 硬邦邦的香蕉 → 粘贴 **license key**，再粘贴 **Google API key**
 6. 框选 → 输 prompt → 点生成
 
-有问题随时发邮件：**<junshaonan@outlook.com>**，一般 24 小时内回复。
+有问题随时发邮件：**<i@liangzai.org>**，一般 24 小时内回复。
 
 ---
 
 ## FAQ
 
 **Q: 为什么叫 Erect Banana？**  
-Gemini 2.5 Flash Image 的内部代号是 "Nano Banana"。这个插件让 PS 的 AI 填充能力"硬"起来——仅此而已。
+Gemini 2.5 Flash Image 的内部代号是 "Nano Banana2"。这个插件让 PS 的 AI 填充能力"硬"起来——仅此而已。
 
 **Q: 会不会上传我的图片？**  
 不会。图片直接从你的电脑发到 Google API，我们的服务器只做 license 验证（一次 HTTPS 请求，验证完就再无通讯）。
 
 **Q: 一个 key 能装几台机器？**  
-默认绑定 1 台机器（HWID 绑定）。换电脑请发邮件到 <junshaonan@outlook.com> 申请解绑，一般几小时内处理。
+默认绑定 1 台机器（HWID 绑定）。换电脑请发邮件到 <i@liangzai.org> 申请解绑，一般几小时内处理。
 
 **Q: 支不支持 macOS？**  
 1.x 版本仅 Windows。Mac 版本视销量决定（你的购买就是投票）。
@@ -180,7 +177,7 @@ Resale, redistribution, or reverse engineering is not permitted.
 
 ## Contact
 
-- **Email**: <junshaonan@outlook.com> (replies within 24h)
+- **Email**: <i@liangzai.org > (replies within 24h)
 - **Buy**: <https://junshaon.gumroad.com/l/erect-banana>
 - **Bug reports / feature requests**: [GitHub Issues](https://github.com/shuaige-dev/erect-banana/issues)
 - Issues / feature requests: [GitHub Issues](https://github.com/shuaige-dev/erect-banana/issues)
