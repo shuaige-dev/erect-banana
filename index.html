@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>硬邦邦的香蕉 — AI Photoshop 插件</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="nav">
+  <div class="logo">硬邦邦的香蕉</div>
+  <div class="nav-right">
+    <a href="./guide.html" target="_blank" class="btn secondary sm">使用说明</a>
+    <a href="./en.html" class="btn secondary sm">English</a>
+    <a href="https://wwbtd.lanzoul.com/ifF1D3rmze7e" target="_blank" class="btn secondary sm">下载</a>
+    <div class="license-container">
+      <button class="btn primary sm" onclick="toggleLicenseMenu(event)">许可证密钥</button>
+      <div class="license-menu" id="licenseMenu">
+        <a href="https://afdian.com/item/794c76d0543d11f1b2e352540025c377" target="_blank" class="license-menu-item">购买许可证密钥</a>
+        <div class="divider"></div>
+        <a href="https://license.shuaige.win/redeem" target="_blank" class="license-menu-item">激活许可证密钥</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO: 视频 C 位 -->
+<section class="hero">
+  <!-- 功能截图区块 -->
+  <div class="features-zh">
+
+    <div class="fz-title">核心功能</div>
+
+    <!-- 填充 -->
+    <div class="fz-block">
+      <div class="fz-info">
+        <div class="fz-tag">AI 创成式填充</div>
+        <h2 class="fz-h2">框选 + 一句话，重绘任意区域。</h2>
+        <p class="fz-p">套索工具圈出要改的地方，输入你想要的效果，结果自动合成到新图层、精准对齐原位置。换衣服、改颜色、去杂物，都支持透明抠图。</p>
+      </div>
+      <div class="fz-imgs">
+        <div><img src="https://raw.githubusercontent.com/shuaige-dev/erect-banana/main/assets/fill-before.png" alt="填充前" loading="lazy"><div class="fz-label">之前</div></div>
+        <div><img src="https://raw.githubusercontent.com/shuaige-dev/erect-banana/main/assets/fill-after.png" alt="填充后" loading="lazy"><div class="fz-label">之后</div></div>
+      </div>
+    </div>
+
+    <!-- 扩图 -->
+    <div class="fz-block fz-reverse">
+      <div class="fz-info">
+        <div class="fz-tag">AI 扩图</div>
+        <h2 class="fz-h2">画布往外拉，AI 自动补全。</h2>
+        <p class="fz-p">用裁剪工具把画布往任意方向拉大，点扩图，AI 填满空白区域，原图像素 100% 保留，光线透视无缝衔接。半身扩全身、补背景一键搞定。</p>
+      </div>
+      <div class="fz-imgs">
+        <div><img src="https://raw.githubusercontent.com/shuaige-dev/erect-banana/main/assets/outpaint-before.png" alt="扩图前" loading="lazy"><div class="fz-label">之前</div></div>
+        <div><img src="https://raw.githubusercontent.com/shuaige-dev/erect-banana/main/assets/outpaint-after.png" alt="扩图后" loading="lazy"><div class="fz-label">之后</div></div>
+      </div>
+    </div>
+
+    <!-- 融合 -->
+    <div class="fz-block">
+      <div class="fz-info">
+        <div class="fz-tag">光照融合</div>
+        <h2 class="fz-h2">合成图自动匹配光照，告别穿帮。</h2>
+        <p class="fz-p">把人物或物体合成到新背景后，AI 自动分析光源方向、色温和阴影软硬，调整合成层让它看起来像是原本就在那里。</p>
+      </div>
+      <div class="fz-imgs">
+        <div><img src="https://raw.githubusercontent.com/shuaige-dev/erect-banana/main/assets/harmonize-before.png" alt="融合前" loading="lazy"><div class="fz-label">之前</div></div>
+        <div><img src="https://raw.githubusercontent.com/shuaige-dev/erect-banana/main/assets/harmonize-after.png" alt="融合后" loading="lazy"><div class="fz-label">之后</div></div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="hero-video-wrap">
+    <iframe
+      src="https://player.bilibili.com/player.html?bvid=BV18NJE6nE5x&autoplay=0"
+      allowfullscreen
+      frameborder="0"
+      scrolling="no">
+    </iframe>
+  </div>
+  <div class="hero-caption">
+    <h1>Photoshop 内的原生 AI 编辑闭环，以你的 API Key 驱动生成</h1>
+    
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    
+    <a href="mailto:i@shuaige.win" class="footer-link">i@shuaige.win</a>
+  </div>
+</footer>
+
+<!-- AI 聊天样式 -->
+<style>
+.ai-fab{position:fixed;bottom:28px;right:28px;z-index:1000;width:52px;height:52px;border-radius:50%;border:none;background:#0071e3;color:#fff;cursor:pointer;box-shadow:0 4px 20px rgba(0,113,227,.5);display:flex;align-items:center;justify-content:center;transition:transform .2s,box-shadow .2s}
+.ai-fab:hover{transform:scale(1.08);box-shadow:0 6px 28px rgba(0,113,227,.7)}
+.ai-fab-ring{position:absolute;inset:-4px;border-radius:50%;border:2px solid rgba(0,113,227,.3);animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.4;transform:scale(1.15)}}
+.ai-chat{position:fixed;bottom:92px;right:28px;z-index:999;width:360px;height:520px;background:#1a1d24;border:1px solid #2a2f3d;border-radius:18px;display:flex;flex-direction:column;box-shadow:0 20px 60px rgba(0,0,0,.6);transform:scale(.92) translateY(10px);opacity:0;pointer-events:none;transition:all .22s cubic-bezier(.4,0,.2,1)}
+.ai-chat.open{transform:scale(1) translateY(0);opacity:1;pointer-events:all}
+.ai-chat-header{padding:16px 18px;border-bottom:1px solid #2a2f3d;display:flex;align-items:center;justify-content:space-between;border-radius:18px 18px 0 0}
+.ai-chat-title{display:flex;align-items:center;gap:8px;font-size:15px;font-weight:500;color:#fff}
+.ai-dot{width:8px;height:8px;border-radius:50%;background:#4ec94e;animation:pulse 2s infinite}
+.ai-chat-close{background:none;border:none;color:#666;font-size:18px;cursor:pointer;padding:2px 6px;border-radius:6px}
+.ai-chat-close:hover{background:#2a2f3d;color:#fff}
+.ai-chat-messages{flex:1;overflow-y:auto;padding:16px;display:flex;flex-direction:column;gap:12px}
+.ai-chat-messages::-webkit-scrollbar{width:4px}
+.ai-chat-messages::-webkit-scrollbar-thumb{background:#2a2f3d;border-radius:4px}
+.msg{max-width:85%;line-height:1.6;font-size:14px}
+.msg-user{align-self:flex-end;background:#0071e3;color:#fff;padding:10px 14px;border-radius:16px 16px 4px 16px}
+.msg-ai{align-self:flex-start;background:#23272f;color:#e7e9ee;padding:10px 14px;border-radius:16px 16px 16px 4px}
+.msg-ai a{color:#6db3ff}
+.msg-typing{display:flex;gap:4px;align-items:center;padding:12px 14px}
+.msg-typing span{width:7px;height:7px;border-radius:50%;background:#555;animation:typing 1.2s infinite}
+.msg-typing span:nth-child(2){animation-delay:.2s}
+.msg-typing span:nth-child(3){animation-delay:.4s}
+@keyframes typing{0%,80%,100%{transform:scale(1);opacity:.5}40%{transform:scale(1.2);opacity:1}}
+.ai-chat-input-row{padding:12px 14px;border-top:1px solid #2a2f3d;display:flex;gap:8px;border-radius:0 0 18px 18px}
+.ai-chat-input{flex:1;background:#23272f;border:1px solid #2a2f3d;border-radius:10px;color:#fff;font-size:14px;padding:9px 12px;outline:none;font-family:inherit;resize:none;height:38px;line-height:1.4}
+.ai-chat-input:focus{border-color:#0071e3}
+.ai-chat-send{width:38px;height:38px;border-radius:10px;border:none;background:#0071e3;color:#fff;cursor:pointer;font-size:16px;display:flex;align-items:center;justify-content:center;transition:background .15s}
+.ai-chat-send:hover{background:#0060c0}
+.ai-chat-send:disabled{background:#2a2f3d;cursor:not-allowed}
+.ai-welcome{text-align:center;color:#666;font-size:13px;padding:20px 10px}
+.ai-welcome strong{display:block;color:#9aa3b2;font-size:15px;margin-bottom:6px}
+.ai-suggestion{display:inline-block;margin:4px;padding:6px 12px;background:#23272f;border:1px solid #2a2f3d;border-radius:999px;color:#9aa3b2;font-size:12px;cursor:pointer;transition:all .15s}
+.ai-suggestion:hover{border-color:#0071e3;color:#6db3ff}
+</style>
+
+<!-- AI 客服按钮 -->
+<button class="ai-fab" id="aiFab" onclick="toggleChat()" title="AI 助手">
+  <div class="ai-fab-ring"></div>
+  <svg width="22" height="22" viewBox="0 0 22 22" fill="none">
+    <circle cx="11" cy="8" r="3" stroke="currentColor" stroke-width="1.5"/>
+    <path d="M5 19c0-3.314 2.686-6 6-6s6 2.686 6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+    <circle cx="17.5" cy="4.5" r="1.5" fill="#fff"/>
+  </svg>
+</button>
+
+<div class="ai-chat" id="aiChat">
+  <div class="ai-chat-header">
+    <div class="ai-chat-title"><div class="ai-dot"></div>AI 助手</div>
+    <button class="ai-chat-close" onclick="toggleChat()">✕</button>
+  </div>
+  <div class="ai-chat-messages" id="aiMessages">
+    <div class="ai-welcome">
+      <strong>🍌 你好！有什么可以帮你？</strong>
+      关于插件安装、使用、激活等问题都可以问我
+      <div style="margin-top:12px">
+        <span class="ai-suggestion" onclick="askQ(this)">怎么安装插件？</span>
+        <span class="ai-suggestion" onclick="askQ(this)">支持哪些 AI 模型？</span>
+        <span class="ai-suggestion" onclick="askQ(this)">如何激活许可证？</span>
+        <span class="ai-suggestion" onclick="askQ(this)">扩图对不齐怎么办？</span>
+      </div>
+    </div>
+  </div>
+  <div class="ai-chat-input-row">
+    <textarea class="ai-chat-input" id="aiInput" placeholder="输入问题，按 Enter 发送…" rows="1"
+      onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg()}"></textarea>
+    <button class="ai-chat-send" id="aiSend" onclick="sendMsg()">&#10148;</button>
+  </div>
+</div>
+
+<script>
+const AI_URL = 'https://license.shuaige.win/search';
+let chatOpen = false;
+
+function toggleChat() {
+  chatOpen = !chatOpen;
+  document.getElementById('aiChat').classList.toggle('open', chatOpen);
+  if (chatOpen) setTimeout(() => document.getElementById('aiInput').focus(), 250);
+}
+
+function askQ(el) {
+  document.getElementById('aiInput').value = el.textContent;
+  sendMsg();
+}
+
+async function sendMsg() {
+  const input = document.getElementById('aiInput');
+  const q = input.value.trim();
+  if (!q) return;
+  input.value = '';
+  const box = document.getElementById('aiMessages');
+
+  const uDiv = document.createElement('div');
+  uDiv.className = 'msg msg-user';
+  uDiv.textContent = q;
+  box.appendChild(uDiv);
+
+  const typing = document.createElement('div');
+  typing.className = 'msg msg-ai msg-typing';
+  typing.innerHTML = '<span></span><span></span><span></span>';
+  box.appendChild(typing);
+  box.scrollTop = box.scrollHeight;
+  document.getElementById('aiSend').disabled = true;
+
+  try {
+    const res = await fetch(AI_URL, {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({query: q})
+    });
+    const data = await res.json();
+    typing.remove();
+    const aDiv = document.createElement('div');
+    aDiv.className = 'msg msg-ai';
+    const summary = data?.summary?.summaryText || '';
+    if (summary) {
+      aDiv.innerHTML = summary.replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>').replace(/\n/g,'<br>');
+    } else {
+      aDiv.textContent = '没有找到相关信息，请发邮件咨询：i@shuaige.win';
+    }
+    box.appendChild(aDiv);
+  } catch(e) {
+    typing.remove();
+    const eDiv = document.createElement('div');
+    eDiv.className = 'msg msg-ai';
+    eDiv.textContent = '暂时无法回答，请发邮件咨询：i@shuaige.win';
+    box.appendChild(eDiv);
+  }
+
+  document.getElementById('aiSend').disabled = false;
+  box.scrollTop = box.scrollHeight;
+}
+</script>
+
+<script>
+function toggleChat_license() {} // placeholder
+
+function toggleLicenseMenu(e) {
+  e.stopPropagation();
+  document.getElementById('licenseMenu').classList.toggle('open');
+}
+
+document.addEventListener('click', () => {
+  document.getElementById('licenseMenu').classList.remove('open');
+});
+
+window.addEventListener('scroll', () => {
+  document.getElementById('nav').classList.toggle('scrolled', window.scrollY > 20);
+});
+</script>
+
+</body>
+</html>
