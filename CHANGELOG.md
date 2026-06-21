@@ -7,14 +7,14 @@ This project follows [Semantic Versioning](https://semver.org/).
 
 ### Added
 - Generative Fill, Outpaint, and Harmonize (light matching) modules
-- BYOK support for Google AI Studio, Google Vertex AI, OpenAI, and OpenRouter
+- BYOK support for Google AI Studio, Google Vertex AI, and OpenRouter
 - Automatic platform detection from API key format
 - Multi-language UI (English, Simplified & Traditional Chinese, Japanese, Korean, Spanish, French, German)
 - Feathered mask compositing for seamless result blending
 - Reference image support for guided generation
 
 ### Changed
-- OpenRouter added as a unified-key alternative for Gemini and GPT-Image models
+- OpenRouter added as a unified-key alternative for Gemini models
 - Distribution moved to Adobe Exchange — no local license server or HWID activation required
 
 ### Known issues

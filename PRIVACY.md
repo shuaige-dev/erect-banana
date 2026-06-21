@@ -10,7 +10,6 @@ When you use the plugin, the image data from your selection or canvas is sent **
 
 - Google AI Studio
 - Google Vertex AI
-- OpenAI
 - OpenRouter
 
 This communication uses **your own API key** and is governed by that provider's own privacy policy and terms of service. The developer of Erect Banana has no access to this data and does not log, store, or process it in any way.

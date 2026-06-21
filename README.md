@@ -42,8 +42,7 @@ Erect Banana doesn't run its own backend or charge per generation. You connect y
 
 - **Google AI Studio** (Gemini 2.5 / 3.1 / 3 Pro Image — "Nano Banana" family) — free tier available
 - **Google Vertex AI** (for users with their own GCP service account)
-- **OpenAI** (GPT-Image-2)
-- **OpenRouter** (unified access to Gemini and GPT-Image models through a single key)
+- **OpenRouter** (unified access to Gemini models through a single key)
 
 Your images go straight from your machine to the provider you choose. Nothing passes through any server operated by the plugin author.
 
