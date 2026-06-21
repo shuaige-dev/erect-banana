@@ -17,7 +17,7 @@ This communication uses **your own API key** and is governed by that provider's 
 
 ## Local processing
 
-The plugin uses a local helper application (eb_bridge) running on your own machine to prepare images and communicate with your chosen AI provider. Temporary files created during this process are stored locally and automatically deleted after each operation. Nothing is uploaded to any server controlled by the developer.
+The plugin prepares images locally inside Photoshop (using a bundled native add-on) and communicates with your chosen AI provider. Temporary files created during this process are stored locally and automatically deleted after each operation. Nothing is uploaded to any server controlled by the developer.
 
 ## Analytics and tracking
 

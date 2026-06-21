@@ -49,7 +49,7 @@ Your images go straight from your machine to the provider you choose. Nothing pa
 
 ## Requirements
 
-- Adobe Photoshop 24.2 or later (Windows or macOS)
+- Adobe Photoshop 24.2 or later (Windows)
 - An API key from one of the supported providers above
 
 ## Install
@@ -59,7 +59,7 @@ Erect Banana is distributed through **Adobe Exchange** — search for "Erect Ban
 ## Permissions
 
 - **Network access** — sends your selection/canvas to the AI provider you've configured and downloads the generated result.
-- **Local file system access** — used to write temporary image files exchanged between Photoshop and the plugin's local processing bridge. Files are cleaned up automatically after each operation.
+- **Local file system access** — used to write temporary image files during processing inside Photoshop. Files are cleaned up automatically after each operation.
 - **Clipboard read/write** — lets you copy/paste prompts and results between Photoshop and other apps.
 
 ## Contact

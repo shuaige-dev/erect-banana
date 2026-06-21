@@ -18,5 +18,5 @@ This project follows [Semantic Versioning](https://semver.org/).
 - Distribution moved to Adobe Exchange — no local license server or HWID activation required
 
 ### Known issues
-- macOS support depends on Photoshop UXP version compatibility — verify before relying on it
+- Windows only — macOS is not supported in this release
 - OpenRouter image-generation model availability varies by provider; check OpenRouter's model list if a model returns no image
