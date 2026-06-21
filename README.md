@@ -69,4 +69,4 @@ Erect Banana is distributed through **Adobe Exchange** — search for "Erect Ban
 
 ## License
 
-MIT
+© 2026 shuaige. All rights reserved.

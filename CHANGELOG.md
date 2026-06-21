@@ -14,7 +14,7 @@ This project follows [Semantic Versioning](https://semver.org/).
 - Reference image support for guided generation
 
 ### Changed
-- Removed third-party proxy platform support (Maibao); OpenRouter added as a unified-key alternative
+- OpenRouter added as a unified-key alternative for Gemini and GPT-Image models
 - Distribution moved to Adobe Exchange — no local license server or HWID activation required
 
 ### Known issues
